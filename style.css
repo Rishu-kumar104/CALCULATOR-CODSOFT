@@ -1,0 +1,45 @@
+body {
+    background-image: url(pexels-padrinan-255379.jpg);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#calculator {
+    width: 350px;
+    height: 250px;
+    margin:  auto;
+    border: 1px solid #494343;
+    padding: 20px;
+}
+
+#display {
+    font-size: 48px;
+    text-align: right;
+    padding: 10px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.operator {
+    background-color: #efeef1;
+}
+
+.equal {
+    grid-column: span ;
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.clear {
+    background-color: #aa3b3b;
+    color: #fff;
+}
